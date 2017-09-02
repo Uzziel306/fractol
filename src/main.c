@@ -6,7 +6,7 @@
 /*   By: asolis <asolis@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/08/21 19:30:19 by asolis            #+#    #+#             */
-/*   Updated: 2017/08/21 19:35:38 by asolis           ###   ########.fr       */
+/*   Updated: 2017/08/26 15:24:17 by asolis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	set(t_hammer *f)
 	f->mv.movey = 0;
 	f->p.maxi = 100;
 	f->p.colormax = 0X00000000;
-	f->p.color = 1;
+	f->p.color = 2;
 	f->p.mouse_on = 0;
 	f->p.creal = -0.7;
 	f->p.cimag = 0.27015;
